@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Billboard Top Hits of the 1990's</title>
+    <title>Billboard Top 100 #1 Hits of the 1990's</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8"/>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
     <body>
-      <p id='datetext'></p>
-      <br>
-      <p id='artisttext'></p>
-      <br>
-      <p id='songtext'></p>
-      <br>
+      <div class='box-information'>
+        <br>
+        <p class='title'>Billboard Top 100 #1 Hits of the 1990's</p>
+        <br>
+        <p class="date" id='datetext'></p>
+
+        <p class="artist" id='artisttext'></p>
+
+        <p class="song" id='songtext'></p>
+        <button class="button" id="previous">Previous</button>
+        <button class="button" id="next">Next</button>
+        <br>
+    </div>
     </body>
     <script src="main.js"></script>
   </html>
