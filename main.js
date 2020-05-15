@@ -13,12 +13,14 @@ datetext.innerHTML = date[0];
 artisttext.innerHTML = artist[0];
 songtext.innerHTML = song[0];
 
-for (let i = 1; i <= date.length; i ++) {
-  r = 1;
-  setTimeout(function () {
-    datetext.innerHTML = date[r];
-    artisttext.innerHTML = artist[r];
-    songtext.innerHTML = song[r];
+
+for (var x=0; x < date.length; x ++) {
+  setInterval(function () {
+    i = 1;
+    datetext.innerHTML = date[i];
+    console.log(date[i]);
+    artisttext.innerHTML = artist[i];
+    songtext.innerHTML = song[i];
+    i++;
     }, (3 * 1000));
-  r += 1;
 };
