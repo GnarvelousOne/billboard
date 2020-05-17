@@ -8,26 +8,11 @@ var song = ['How Am I Supposed to Live Without You', 'Opposites Attract', 'Escap
 let datetext = document.getElementById("datetext");
 let artisttext = document.getElementById("artisttext");
 let songtext = document.getElementById("songtext");
-let hitbutton = document.getElementById("hitbutton")
 
 datetext.innerHTML = date[0];
 artisttext.innerHTML = artist[0];
 songtext.innerHTML = song[0];
 
-/*
-function slideshow() {
-  var i = 1;
-  for (var x=0; x < date.length; x ++) {
-    datetext.innerHTML = date[i+1];
-    console.log(date[i+1]);
-    artisttext.innerHTML = artist[i+1];
-    songtext.innerHTML = song[i+1];
-    i ++;
-  };
-};
-
-hitbutton.onclick = function() {slideshow()};
-//*/
 var i = 0;
 
 $(document).ready(function(){
