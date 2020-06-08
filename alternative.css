@@ -1,0 +1,67 @@
+body {
+  background-image: url('collagegrayblur.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.box-information {
+  margin: 0 auto 15px auto;
+  padding: 0 10px 10px 10px;
+  width: 80%;
+  position: relative;
+}
+
+.button {
+  width: 7em;
+  display: block;
+  padding: 10px 15px;
+  background-color: #000;
+  font-size: 1.0em;
+  text-indent: 0;
+  text-align: center;
+  color: #eeeeee;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.75em;
+  color: #1f4060;
+  text-shadow: 1px 1px 2px #fff, 0 2px 6px #fff, 0 3px 6px #fff;
+  font-family: 'Permanent Marker';
+}
+
+.date {
+  text-align: center;
+  font-size: 1.5em;
+  color: #990000;
+  text-shadow: 1px 1px 2px #fff, 0 2px 6px #fff, 0 3px 6px #fff;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.artist {
+  text-align: center;
+  font-size: 2.5em;
+  color: #990000;
+  text-shadow: 1px 1px 2px #fff, 0 2px 6px #fff, 0 3px 6px #fff;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.song {
+  text-align: center;
+  font-size: 1.75em;
+  color: #990000;
+  text-shadow: 1px 1px 2px #fff, 0 2px 6px #ffffff, 0 3px 6px #fff;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.weeks {
+    text-align: center;
+    font-size: 1.75em;
+    color: #1f4060;
+    text-shadow: 1px 1px 2px #fff, 0 2px 6px #fff, 0 3px 6px #fff;
+    font-family: 'Permanent Marker', cursive;
+}
