@@ -16,6 +16,7 @@ body {
   width: 7em;
   display: block;
   padding: 10px 15px;
+  border-radius: 0.5em;
   background-color: #e65c00;
   font-size: 1.0em;
   text-indent: 0;
@@ -54,5 +55,13 @@ body {
   font-size: 1.75em;
   color: #e65c00;
   text-shadow: 1px 1px 2px #000000, 0 2px 6px #ffffff, 0 3px 6px #1f4060;
+  font-family: "Georgia" sans-serif;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1em;
+  color: #000000;
+  text-shadow: 1px 1px 2px #e65c00, 0 2px 6px #ffffff, 0 3px 6px #1f4060;
   font-family: "Georgia" sans-serif;
 }
