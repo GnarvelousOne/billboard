@@ -8,7 +8,6 @@ body {
   margin: 0 auto 15px auto;
   padding: 0 10px 10px 10px;
   width: 80%;
-
   position: relative;
 }
 
@@ -27,6 +26,7 @@ body {
   margin-left:auto;
   margin-right:auto;
 }
+
 .title {
   text-align: center;
   font-size: 2.75em;
@@ -64,4 +64,9 @@ body {
   color: #000000;
   text-shadow: 1px 1px 2px #e65c00, 0 2px 6px #ffffff, 0 3px 6px #1f4060;
   font-family: "Georgia" sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
