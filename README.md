@@ -1,7 +1,9 @@
+Check it out at http://stephenmichaelparvin.com/billboard/alternative.html and http://stephenmichaelparvin.com/billboard/index.html
+
 Practice using Beautiful Soup.  Scrapes the Billboard 100's #1 hits from the 1990's
 in chronological order.
 
-Also added 2nd page which scrapes the top Alternative Hits of the 1990s.
+Also added 2nd page which scrapes the top Alternative Hits of the 1990s.  Much cooler and my favorite genre as a kid.
 
 The python script puts the data into lists, but I have had to paste them directly into
 main.js.  Still learning how to import files and data into JS.
