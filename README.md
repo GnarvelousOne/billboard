@@ -1,4 +1,3 @@
-Check it out at http://stephenmichaelparvin.com/billboard/alternative.html and http://stephenmichaelparvin.com/billboard/index.html
 
 Practice using Beautiful Soup.  Scrapes the Billboard 100's #1 hits from the 1990's
 in chronological order.
