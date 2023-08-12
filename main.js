@@ -21,6 +21,11 @@ $(document).ready(function(){
     console.log(date[i+1]);
     artisttext.innerHTML = artist[i+1];
     songtext.innerHTML = "'"+song[i+1]+"'";
+    var artisturl = document.querySelector("artistlink");
+    artisturl.href = 'https://www.youtube.com/results?search_query='+artisttext;
+    var songurl = document.querySelector("songlink");
+    songurl.href = 'https://www.youtube.com/results?search_query='+songtext;
+
     i ++;
   });
 });

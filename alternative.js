@@ -17,6 +17,13 @@ artisttext.innerHTML = artist[0];
 songtext.innerHTML = "'"+song[0]+"'";
 weekstext.innerHTML = "Weeks at number one: "+weeks[0];
 
+window.onload=()=>{
+  var artisturl = document.querySelector("#artistlink");
+  artisturl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML;
+  var songurl = document.querySelector("#songlink");
+  songurl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML+' '+songtext.innerHTML;
+};
+
 var i = 0;
 
 $(document).ready(function(){
@@ -25,6 +32,10 @@ $(document).ready(function(){
     artisttext.innerHTML = artist[i+1];
     songtext.innerHTML = "'"+song[i+1]+"'";
     weekstext.innerHTML = "Weeks at number one: "+weeks[i+1];
+    var artisturl = document.querySelector("#artistlink");
+    artisturl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML;
+    var songurl = document.querySelector("#songlink");
+    songurl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML+' '+songtext.innerHTML;
     i ++;
   });
 });
@@ -35,6 +46,10 @@ $(document).ready(function(){
     artisttext.innerHTML = artist[i-1];
     songtext.innerHTML = "'"+song[i-1]+"'";
     weekstext.innerHTML = "Weeks at number one: "+weeks[i-1];
+    var artisturl = document.querySelector("#artistlink");
+    artisturl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML;
+    var songurl = document.querySelector("#songlink");
+    songurl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML+' '+songtext.innerHTML;
     i --;
   });
 });
