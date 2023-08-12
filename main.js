@@ -13,6 +13,13 @@ datetext.innerHTML = date[0];
 artisttext.innerHTML = artist[0];
 songtext.innerHTML = song[0];
 
+window.onload=()=>{
+  var artisturl = document.querySelector("#artistlink");
+  artisturl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML;
+  var songurl = document.querySelector("#songlink");
+  songurl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML+' '+songtext.innerHTML;
+};
+
 var i = 0;
 
 $(document).ready(function(){
@@ -21,10 +28,10 @@ $(document).ready(function(){
     console.log(date[i+1]);
     artisttext.innerHTML = artist[i+1];
     songtext.innerHTML = "'"+song[i+1]+"'";
-    var artisturl = document.querySelector("artistlink");
-    artisturl.href = 'https://www.youtube.com/results?search_query='+artisttext;
-    var songurl = document.querySelector("songlink");
-    songurl.href = 'https://www.youtube.com/results?search_query='+songtext;
+    var artisturl = document.querySelector("#artistlink");
+    artisturl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML;
+    var songurl = document.querySelector("#songlink");
+    songurl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML+' '+songtext.innerHTML;
 
     i ++;
   });
@@ -36,6 +43,10 @@ $(document).ready(function(){
     console.log(date[i-1]);
     artisttext.innerHTML = artist[i-1];
     songtext.innerHTML = "'"+song[i-1]+"'";
+    var artisturl = document.querySelector("#artistlink");
+    artisturl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML;
+    var songurl = document.querySelector("#songlink");
+    songurl.href = 'https://www.youtube.com/results?search_query='+artisttext.innerHTML+' '+songtext.innerHTML;
     i --;
   });
 });
