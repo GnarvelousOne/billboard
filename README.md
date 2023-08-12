@@ -4,6 +4,8 @@ in chronological order.
 
 Also added 2nd page which scrapes the top Alternative Hits of the 1990s.  Much cooler and my favorite genre as a kid.
 
+Clicking on either the Artist or Song will take you to a YouTube search so you can kick out the jamz.
+
 The python script puts the data into lists, but I have had to paste them directly into
 main.js.  Still learning how to import files and data into JS.
 
