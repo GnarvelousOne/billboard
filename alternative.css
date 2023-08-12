@@ -11,9 +11,16 @@ body {
   position: relative;
 }
 
+.buttonpair {
+  text-align: center;
+}
+
 .button {
-  width: 7em;
-  display: block;
+  width: 9em;
+  display: inline-block;
+  justify-items: center;
+
+  
   padding: 10px 15px;
   border-radius: 0.5em;
   background-color: #eee;
@@ -22,8 +29,8 @@ body {
   text-align: center;
   
   border-color: #000;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
   margin-left:auto;
   margin-right:auto;
   font-family: 'Permanent Marker', cursive;
@@ -31,12 +38,10 @@ body {
 
 .red{
   color: #990000;
-
 }
 
 .blue{
   color: #1f4060;
-
 }
 
 .title {
@@ -90,4 +95,29 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .title{
+    font-size: 2em;
+  }
+  
+  .date{
+    font-size: 1em;
+    height: 2em;
+  }
+  
+  .artist{
+    font-size: 1.25em;
+    height: 2em;
+  }
+  .song {
+    font-size: 1.25em;
+    height: 2em;
+  }
+  .weeks {
+    font-size: 1em;
+    height: 2em;
+  }
 }
